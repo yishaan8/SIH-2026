@@ -33,6 +33,21 @@ npm run lint
 npm run build
 ```
 
+Run the deterministic evidence fingerprint demo:
+
+```bash
+npm run hash:evidence
+```
+
+The production container can be built and started from the repository root:
+
+```bash
+docker compose up --build
+```
+
+Then open `http://localhost:4173`. Nginx serves the compiled app, falls back to
+`index.html` for client-side routes, and exposes `/healthz`.
+
 ## Backend integration
 
 The app runs in clearly labelled **Demo mode** when no API URL is configured.

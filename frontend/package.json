@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "lint": "eslint .",
-    "test": "node --experimental-strip-types --test src/domain/analysis.test.ts src/utils/audioValidation.test.ts"
+    "test": "node --experimental-strip-types --test src/domain/analysis.test.ts src/utils/audioValidation.test.ts",
+    "hash:evidence": "node scripts/hash-evidence.mjs"
   },
   "dependencies": {
     "motion": "13.2.0",
