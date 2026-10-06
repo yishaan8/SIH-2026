@@ -1,4 +1,3 @@
-# SIH 26104 Frontend
 
 Responsive frontend foundation for **SIH 26104 — AI-Powered Real-Time Detection and Prevention of Voice Cloning Impersonation Attacks**.
 
