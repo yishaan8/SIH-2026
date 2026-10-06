@@ -1,4 +1,4 @@
-# SIH 2026 — SIH26104
+
 
 AI-Powered Real-Time Detection and Prevention of Voice Cloning Impersonation Attacks.
 
